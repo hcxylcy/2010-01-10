@@ -2,6 +2,10 @@ public class Student extends User
 {
    static String studentname;
   static int age;
+  public void Student()
+  {
+
+  }
    public void setAge(int age)
    {
        this.age=age;
@@ -17,9 +21,5 @@ public class Student extends User
    public String getStudentname()
    {
        return studentname;
-   }
-   public static  void main(String args[])
-   {
-
    }
 }
